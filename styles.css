@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p li{
+    font-size: 15px;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.main{
+    background-color: #FFF6E7;
+    color: #617F67;
+    max-width: 100%;   /* Prevents overflow */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header{
+    min-height: 11rem;
+    background-color: #617F67;
+    color: #FFF6E7;
+    display: flex;  /* Added for flexbox alignment */
+    align-items: center;  /* Centers content vertically */
+    justify-content:left;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.photo{
+    max-width: 7rem;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.about-me{
+    padding-top: 1rem;
+    margin-left: 1rem;
+    max-width: 70%;
+}
+
+@media (max-width : 900px){
+    .header{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        padding: 2vh 2vw;
+}
+    .about-me > h2, .about-me > span, .about-me > p{
+        text-align: center;
+        
+    }
+    .about-me{
+        max-width: 100%;
+        margin-left: 0;
+        padding: 0%;
+    }
+}
+
+.about-me p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.about-me span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.info{
+    min-height: 3rem;
+    background-color: #617F67;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFF6E7;
+    flex-wrap: wrap;
+}
+
+.counter-number{
+    height: 2rem;
+    width: 6rem;
+    margin-top: 0.5rem;
+    font-size: medium;
+    color: #fff6e7;
+    background-color: #617F67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands, .fa-regular, .fa-solid{
+    font-size: 1rem; /* Adjust the size */
+    color: #FFF6E7;   /* Set icon color (light) */
+    padding: 1px; /* Padding around the icon */
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+}
+.experience{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.experience ul{
+    margin-left: 2rem;
+}
+
+.certifications{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cert{
+    max-height: 5rem;
+    border:1px solid white;
+    border-radius: 50%;
+}
+
+.cert:hover{
+    border:1px solid grey;
+}
+
+
+.awards{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.education{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skills{
+    padding-top: 1rem;
+}
+
+.skills li{
+    border: solid #617F67 2px;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    padding: 0.2rem;
+    background-color: #617F67;;
+    color: #FFF6E7;
+    text-align: center;
+}
