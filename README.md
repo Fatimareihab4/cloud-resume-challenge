@@ -7,5 +7,4 @@ This project demonstrates the use of cloud services to host a personal resume we
 - Custom Domain setup with GoDaddy.
 - SSL Encryption for secure HTTPS access using AWS Certificate Manager (ACM).
 - Visitor Counter implemented using AWS Lambda and DynamoDB.
-- Infrastructure as Code using Terraform.
 - CI/CD Pipeline using AWS GitHub Actions.
