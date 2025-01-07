@@ -1,4 +1,5 @@
-**Welcome to my Cloud Resume Challenge!** This project showcases my hands-on experience with cloud technologies, DevOps practices, and automation. The objective of this project is to build a static personal resume website hosted on the cloud, integrate serverless backend services, and implement a Continuous Integration/Continuous Deployment (CI/CD) pipeline.
+**Welcome to my Cloud Resume Challenge!** 
+This project showcases my hands-on experience with cloud technologies, DevOps practices, and automation. The objective of this project is to build a static personal resume website hosted on the cloud, integrate serverless backend services, and implement a Continuous Integration/Continuous Deployment (CI/CD) pipeline.
 
 ![Architecture](website/Images/architecture.png)
 
